@@ -1,0 +1,7 @@
+{
+	"Default": {
+		"timeout": 30000,
+		"pre_delay": 600,
+		"repeat_delay": 400
+	}
+}

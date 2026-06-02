@@ -1,0 +1,355 @@
+{
+    "$__mpe_config_每日突袭": {
+        "$__mpe_code": {
+            "prefix": "",
+            "filePath": "C:\\develop_py\\MaaRoi\\assets\\resource\\pipeline\\每日突袭.json",
+            "lastSyncTime": 1780223921230,
+            "coordinateMode": "absolute-v1",
+            "savedViewport": {
+                "x": -535,
+                "y": -774,
+                "zoom": 0.49
+            },
+            "filename": "每日突袭",
+            "version": "v1.5.3"
+        }
+    },
+    "点击突袭": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "突袭.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    513,
+                    10,
+                    44,
+                    41
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "next": [
+            "点击晋升之塔"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2337,
+                "y": 2262
+            }
+        }
+    },
+    "点击晋升之塔": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "晋升之塔.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    866,
+                    310,
+                    89,
+                    76
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "next": [
+            "点击挑战1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2665,
+                "y": 2263
+            }
+        }
+    },
+    "点击挑战1": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "挑战.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1140,
+                    655,
+                    54,
+                    22
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "next": [
+            "点击挑战2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2988,
+                "y": 2268
+            }
+        }
+    },
+    "点击挑战2": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "挑战.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1003,
+                    613,
+                    116,
+                    24
+                ]
+            }
+        },
+        "post_delay": 10000,
+        "next": [
+            "返回突袭"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3304,
+                "y": 2264
+            }
+        }
+    },
+    "返回突袭": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "返回.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    14,
+                    5,
+                    108,
+                    86
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击进化突袭"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3631,
+                "y": 2259
+            }
+        }
+    },
+    "点击进化突袭": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "净化突袭.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    331,
+                    291,
+                    82,
+                    71
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "next": [
+            "点击挑战净化1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2665,
+                "y": 2674
+            }
+        }
+    },
+    "点击挑战净化1": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "挑战.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1140,
+                    655,
+                    54,
+                    22
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "next": [
+            "点击挑战净化2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2998,
+                "y": 2678
+            }
+        }
+    },
+    "点击挑战净化2": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "挑战.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    602,
+                    665,
+                    67,
+                    30
+                ]
+            }
+        },
+        "post_delay": 90000,
+        "next": [
+            "点击挑战净化3"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3303,
+                "y": 2676
+            }
+        }
+    },
+    "返回突袭2": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "返回.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    14,
+                    5,
+                    108,
+                    86
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "$__mpe_code": {
+            "position": {
+                "x": 4310,
+                "y": 2673
+            }
+        }
+    },
+    "点击挑战净化3": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "挑战.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1140,
+                    655,
+                    54,
+                    22
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "next": [
+            "点击挑战净化4"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3630,
+                "y": 2672
+            }
+        }
+    },
+    "点击挑战净化4": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "挑战.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    610,
+                    666,
+                    62,
+                    24
+                ]
+            }
+        },
+        "post_delay": 90000,
+        "next": [
+            "返回突袭2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3953,
+                "y": 2673
+            }
+        }
+    }
+}

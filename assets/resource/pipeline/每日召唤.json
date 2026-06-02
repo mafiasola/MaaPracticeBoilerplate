@@ -1,0 +1,1468 @@
+{
+    "$__mpe_config_每日召唤": {
+        "$__mpe_code": {
+            "prefix": "",
+            "coordinateMode": "absolute-v1",
+            "lastSyncTime": 1780223890418,
+            "isModifiedExternally": false,
+            "filePath": "C:\\develop_py\\MaaRoi\\assets\\resource\\pipeline\\每日召唤.json",
+            "savedViewport": {
+                "x": 436,
+                "y": 173,
+                "zoom": 0.65
+            },
+            "filename": "每日召唤",
+            "version": "v1.5.3"
+        }
+    },
+    "再次点击跳过": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "跳过.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1108,
+                    43,
+                    54,
+                    29
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "点一下"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 370,
+                "y": 92
+            }
+        }
+    },
+    "点击召唤": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "召唤.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    602,
+                    639,
+                    60,
+                    62
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "点击概率提升召唤1次"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -581,
+                "y": 98
+            }
+        }
+    },
+    "点击概率提升召唤1次": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "召唤一次.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    823,
+                    641,
+                    106,
+                    36
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击跳过"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -261,
+                "y": 94
+            }
+        }
+    },
+    "点击召唤1次": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "召唤一次.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    823,
+                    641,
+                    106,
+                    36
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "点击跳过1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 45,
+                "y": 408
+            }
+        }
+    },
+    "点击召唤英雄": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "召唤英雄.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    19,
+                    246,
+                    68,
+                    49
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击召唤1次"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -257,
+                "y": 402
+            }
+        }
+    },
+    "点击跳过": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "跳过.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1108,
+                    43,
+                    54,
+                    29
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "再次点击跳过"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 45,
+                "y": 83
+            }
+        }
+    },
+    "点一下": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    997,
+                    183,
+                    86,
+                    57
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "next": [
+            "点击召唤英雄"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 670,
+                "y": 125
+            }
+        }
+    },
+    "点击跳过1": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "跳过.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1108,
+                    43,
+                    54,
+                    29
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "再点击跳过1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 336,
+                "y": 408
+            }
+        }
+    },
+    "点一下1": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    997,
+                    183,
+                    86,
+                    57
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "next": [
+            "点击召唤1次2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 901,
+                "y": 436
+            }
+        }
+    },
+    "再点击跳过1": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "跳过.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1108,
+                    43,
+                    54,
+                    29
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "点一下1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 599,
+                "y": 410
+            }
+        }
+    },
+    "点击召唤1次2": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "召唤一次.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    823,
+                    641,
+                    106,
+                    36
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "点击跳过2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 46,
+                "y": 724
+            }
+        }
+    },
+    "点击跳过2": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "跳过.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1108,
+                    43,
+                    54,
+                    29
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "再点击跳过2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 342,
+                "y": 721
+            }
+        }
+    },
+    "再点击跳过2": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "跳过.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1108,
+                    43,
+                    54,
+                    29
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "点一下2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 613,
+                "y": 723
+            }
+        }
+    },
+    "点一下2": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    997,
+                    183,
+                    86,
+                    57
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "点击召唤1次3"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 901,
+                "y": 750
+            }
+        }
+    },
+    "点击召唤1次3": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "召唤一次.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    823,
+                    641,
+                    106,
+                    36
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "点击跳过3"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 42,
+                "y": 1010
+            }
+        }
+    },
+    "点击跳过3": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "跳过.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1108,
+                    43,
+                    54,
+                    29
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "再点击跳过3"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 336,
+                "y": 1013
+            }
+        }
+    },
+    "再点击跳过3": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "跳过.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1108,
+                    43,
+                    54,
+                    29
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "点一下3"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 612,
+                "y": 1016
+            }
+        }
+    },
+    "点一下3": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    997,
+                    183,
+                    86,
+                    57
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "点击召唤1次4"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 894,
+                "y": 1022
+            }
+        }
+    },
+    "点击召唤1次4": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "召唤一次.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    823,
+                    641,
+                    106,
+                    36
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "点击跳过4"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 49,
+                "y": 1310
+            }
+        }
+    },
+    "点击跳过4": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "跳过.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1108,
+                    43,
+                    54,
+                    29
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "再点击跳过4"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 340,
+                "y": 1314
+            }
+        }
+    },
+    "再点击跳过4": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "跳过.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1108,
+                    43,
+                    54,
+                    29
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "点一下4"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 611,
+                "y": 1317
+            }
+        }
+    },
+    "点一下4": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    997,
+                    183,
+                    86,
+                    57
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "点击召唤1次5"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 879,
+                "y": 1331
+            }
+        }
+    },
+    "点击召唤1次5": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "召唤一次.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    823,
+                    641,
+                    106,
+                    36
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "点击跳过5"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 52,
+                "y": 1622
+            }
+        }
+    },
+    "点击跳过5": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "跳过.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1108,
+                    43,
+                    54,
+                    29
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "再点击跳过5"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 342,
+                "y": 1624
+            }
+        }
+    },
+    "再点击跳过5": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "跳过.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1108,
+                    43,
+                    54,
+                    29
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "点一下5"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 609,
+                "y": 1627
+            }
+        }
+    },
+    "点一下5": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    997,
+                    183,
+                    86,
+                    57
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "next": [
+            "点击召唤大炮"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 885,
+                "y": 1639
+            }
+        }
+    },
+    "点击召唤大炮": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "召唤大炮.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    27,
+                    330,
+                    41,
+                    32
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "点击召唤5次1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -240,
+                "y": 2002
+            }
+        }
+    },
+    "点击召唤5次1": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "召唤5次.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    823,
+                    641,
+                    106,
+                    36
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "next": [
+            "点击大炮1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 60,
+                "y": 2008
+            }
+        }
+    },
+    "点击召唤100次": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "召唤100次.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    682,
+                    630,
+                    71,
+                    29
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "next": [
+            "点击大炮5"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2783,
+                "y": 2023
+            }
+        }
+    },
+    "点击大炮1": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1003,
+                    429,
+                    49,
+                    59
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击召唤5次2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 377,
+                "y": 2031
+            }
+        }
+    },
+    "点击召唤5次2": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "召唤5次.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    823,
+                    641,
+                    106,
+                    36
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "next": [
+            "点击大炮2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 663,
+                "y": 2006
+            }
+        }
+    },
+    "点击召唤5次3": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "召唤5次.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    823,
+                    641,
+                    106,
+                    36
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "next": [
+            "点击大炮3"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1257,
+                "y": 2010
+            }
+        }
+    },
+    "点击召唤5次4": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "召唤5次.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    823,
+                    641,
+                    106,
+                    36
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "next": [
+            "点击大炮4"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1827,
+                "y": 2020
+            }
+        }
+    },
+    "点击召唤5次5": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "召唤5次.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    823,
+                    641,
+                    106,
+                    36
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "next": [
+            "点击召唤100次"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2448,
+                "y": 2017
+            }
+        }
+    },
+    "点击大炮2": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1003,
+                    429,
+                    49,
+                    59
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击召唤5次3"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 959,
+                "y": 2030
+            }
+        }
+    },
+    "点击大炮3": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1003,
+                    429,
+                    49,
+                    59
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击召唤5次4"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1533,
+                "y": 2024
+            }
+        }
+    },
+    "点击大炮4": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1003,
+                    429,
+                    49,
+                    59
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击召唤5次5"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2123,
+                "y": 2044
+            }
+        }
+    },
+    "点击大炮5": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1003,
+                    429,
+                    49,
+                    59
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "next": [
+            "点击召唤修理工"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3118,
+                "y": 2046
+            }
+        }
+    },
+    "点击召唤修理工": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "召唤修理工.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    25,
+                    416,
+                    44,
+                    21
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "点击召唤修理工5次1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -233,
+                "y": 2364
+            }
+        }
+    },
+    "点击召唤修理工5次1": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "召唤5次.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    823,
+                    641,
+                    106,
+                    36
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "next": [
+            "点击修理工1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 59,
+                "y": 2365
+            }
+        }
+    },
+    "点击召唤修理工5次2": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "召唤5次.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    823,
+                    641,
+                    106,
+                    36
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "next": [
+            "点击修理工2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 674,
+                "y": 2362
+            }
+        }
+    },
+    "点击召唤修理工5次3": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "召唤5次.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    823,
+                    641,
+                    106,
+                    36
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "next": [
+            "点击修理工3"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1270,
+                "y": 2368
+            }
+        }
+    },
+    "点击召唤修理工5次4": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "召唤5次.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    823,
+                    641,
+                    106,
+                    36
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "next": [
+            "点击修理工4"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1838,
+                "y": 2361
+            }
+        }
+    },
+    "点击召唤修理工5次5": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "召唤5次.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    823,
+                    641,
+                    106,
+                    36
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "next": [
+            "点击召唤修理工100次"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2455,
+                "y": 2365
+            }
+        }
+    },
+    "点击召唤修理工100次": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "召唤100次.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    682,
+                    630,
+                    71,
+                    29
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "next": [
+            "点击修理工5"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2779,
+                "y": 2365
+            }
+        }
+    },
+    "点击修理工1": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1003,
+                    429,
+                    49,
+                    59
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击召唤修理工5次2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 388,
+                "y": 2395
+            }
+        }
+    },
+    "点击修理工2": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1003,
+                    429,
+                    49,
+                    59
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击召唤修理工5次3"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 959,
+                "y": 2385
+            }
+        }
+    },
+    "点击修理工3": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1003,
+                    429,
+                    49,
+                    59
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击召唤修理工5次4"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1558,
+                "y": 2390
+            }
+        }
+    },
+    "点击修理工4": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1003,
+                    429,
+                    49,
+                    59
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击召唤修理工5次5"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2138,
+                "y": 2388
+            }
+        }
+    },
+    "点击修理工5": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1003,
+                    429,
+                    49,
+                    59
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "返回"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3117,
+                "y": 2384
+            }
+        }
+    },
+    "返回": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "返回.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    14,
+                    5,
+                    108,
+                    86
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "$__mpe_code": {
+            "position": {
+                "x": 3443,
+                "y": 2357
+            }
+        }
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "$__mpe_config_每日基地成长": {
+        "$__mpe_code": {
+            "prefix": "",
+            "coordinateMode": "absolute-v1",
+            "lastSyncTime": 1780412112322,
+            "isModifiedExternally": false,
+            "filePath": "C:\\develop_py\\MaaRoi\\assets\\resource\\pipeline\\每日基地成长.json",
+            "savedViewport": {
+                "x": 845,
+                "y": 484,
+                "zoom": 0.86
+            },
+            "filename": "每日基地成长",
+            "version": "v1.5.3"
+        }
+    },
+    "点击升级": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    585,
+                    574,
+                    35,
+                    14
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击升级体力"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -329,
+                "y": -195
+            }
+        }
+    },
+    "点击升级体力": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1175,
+                    311,
+                    24,
+                    21
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击返回"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 39,
+                "y": -187
+            }
+        }
+    },
+    "点击成长": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "成长.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    28,
+                    660,
+                    30,
+                    24
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击升级"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -675,
+                "y": -225
+            }
+        }
+    },
+    "点击返回": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "返回.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    42,
+                    30,
+                    32,
+                    24
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 383,
+                "y": -198
+            }
+        }
+    }
+}

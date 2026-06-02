@@ -1,0 +1,316 @@
+{
+    "$__mpe_config_每日祝福": {
+        "$__mpe_code": {
+            "prefix": "",
+            "coordinateMode": "absolute-v1",
+            "lastSyncTime": 1780226768080,
+            "isModifiedExternally": false,
+            "filePath": "C:\\develop_py\\MaaRoi\\assets\\resource\\pipeline\\每日祝福.json",
+            "savedViewport": {
+                "x": 797,
+                "y": 62,
+                "zoom": 0.86
+            },
+            "filename": "每日祝福",
+            "version": "v1.5.3"
+        }
+    },
+    "点击_获取_1": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "进行获取.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    960,
+                    471,
+                    186,
+                    52
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击_获取_2"
+        ],
+        "on_error": [
+            "返回_主界面_1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -191,
+                "y": 158
+            }
+        }
+    },
+    "点击_获取_2": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "祝福2.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    960,
+                    471,
+                    186,
+                    52
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "返回_主界面_3"
+        ],
+        "on_error": [
+            "返回_主界面_2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 98,
+                "y": 159
+            }
+        }
+    },
+    "点击_获取_2_副本5": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "祝福2.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    960,
+                    471,
+                    186,
+                    52
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "返回_主界面_4"
+        ],
+        "on_error": [
+            "返回_主界面_4_副本7"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -196,
+                "y": 706
+            }
+        }
+    },
+    "返回_主界面_1": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "返回.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    0,
+                    2,
+                    355,
+                    90
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 98,
+                "y": 461
+            }
+        }
+    },
+    "返回_主界面_2": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "返回.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    36,
+                    15,
+                    46,
+                    60
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 384,
+                "y": 431
+            }
+        }
+    },
+    "返回_主界面_3": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "返回.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    35,
+                    13,
+                    59,
+                    67
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 387,
+                "y": 160
+            }
+        }
+    },
+    "返回_主界面_4": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "返回.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    39,
+                    16,
+                    46,
+                    59
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 101,
+                "y": 733
+            }
+        }
+    },
+    "返回_主界面_4_副本7": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "返回.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    35,
+                    19,
+                    56,
+                    56
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 104,
+                "y": 991
+            }
+        }
+    },
+    "返回_主界面_4_副本7_副本8": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "返回.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    36,
+                    18,
+                    54,
+                    60
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": -209,
+                "y": 1132
+            }
+        }
+    },
+    "点击祝福": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "祝福.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    344,
+                    8,
+                    59,
+                    52
+                ]
+            }
+        },
+        "next": [
+            "点击_获取_1",
+            "点击_获取_2_副本5"
+        ],
+        "on_error": [
+            "返回_主界面_4_副本7_副本8"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -556,
+                "y": 169
+            }
+        }
+    }
+}

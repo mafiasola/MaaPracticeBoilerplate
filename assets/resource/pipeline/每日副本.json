@@ -1,0 +1,1276 @@
+{
+    "$__mpe_config_每日副本": {
+        "$__mpe_code": {
+            "prefix": "",
+            "coordinateMode": "absolute-v1",
+            "lastSyncTime": 1780229088511,
+            "isModifiedExternally": false,
+            "filePath": "C:\\develop_py\\MaaRoi\\assets\\resource\\pipeline\\每日副本.json",
+            "savedViewport": {
+                "x": 1850,
+                "y": 982,
+                "zoom": 1.5
+            },
+            "filename": "每日副本",
+            "version": "v1.5.3"
+        }
+    },
+    "向右滑动": {
+        "action": {
+            "type": "Swipe",
+            "param": {
+                "begin": [
+                    550,
+                    126,
+                    162,
+                    51
+                ],
+                "end": [
+                    [
+                        1023,
+                        119,
+                        103,
+                        57
+                    ]
+                ]
+            }
+        },
+        "next": [
+            "点击_列车"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -550,
+                "y": -464
+            }
+        }
+    },
+    "向左滑动": {
+        "action": {
+            "type": "Swipe",
+            "param": {
+                "begin": [
+                    972,
+                    10,
+                    89,
+                    62
+                ],
+                "end": [
+                    [
+                        691,
+                        19,
+                        84,
+                        60
+                    ]
+                ]
+            }
+        },
+        "next": [
+            "点击_机械"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -647,
+                "y": 1572
+            }
+        }
+    },
+    "点击_列车": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "列车.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    260,
+                    126,
+                    176,
+                    52
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击_列车_扫荡"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -251,
+                "y": -459
+            }
+        }
+    },
+    "点击_列车_扫荡": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "扫荡.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    872,
+                    639,
+                    78,
+                    25
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击_列车_最大"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 35,
+                "y": -463
+            }
+        }
+    },
+    "点击_列车_扫荡_2": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "扫荡.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    585,
+                    500,
+                    95,
+                    40
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "领取_列车_钥匙"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 617,
+                "y": -480
+            }
+        }
+    },
+    "点击_列车_最大": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "最大.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    824,
+                    436,
+                    57,
+                    33
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击_列车_扫荡_2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 317,
+                "y": -481
+            }
+        }
+    },
+    "点击副本": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "副本.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    342,
+                    635,
+                    79,
+                    81
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "向右滑动"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -858,
+                "y": -464
+            }
+        }
+    },
+    "点击_机械": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "机械.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1205,
+                    24,
+                    33,
+                    46
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击_机械_扫荡"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -318,
+                "y": 1536
+            }
+        }
+    },
+    "点击_机械_扫荡": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "扫荡.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    892,
+                    644,
+                    73,
+                    27
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击_机械_最大"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 40,
+                "y": 1544
+            }
+        }
+    },
+    "点击_机械_扫荡_2": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "扫荡.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    585,
+                    500,
+                    95,
+                    40
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "领取_机械_钥匙"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 616,
+                "y": 1548
+            }
+        }
+    },
+    "点击_机械_最大": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "最大.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    824,
+                    436,
+                    57,
+                    33
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击_机械_扫荡_2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 326,
+                "y": 1547
+            }
+        }
+    },
+    "点击_矮人": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "矮人.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1111,
+                    38,
+                    24,
+                    25
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击_矮人_扫荡"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -256,
+                "y": 837
+            }
+        }
+    },
+    "点击_矮人_扫荡": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "扫荡.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    883,
+                    638,
+                    67,
+                    33
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击_矮人_最大"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 39,
+                "y": 840
+            }
+        }
+    },
+    "点击_矮人_扫荡_2": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "扫荡.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    585,
+                    500,
+                    95,
+                    40
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "领取_矮人_钥匙"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 614,
+                "y": 848
+            }
+        }
+    },
+    "点击_矮人_最大": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "最大.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    824,
+                    436,
+                    57,
+                    33
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击_矮人_扫荡_2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 317,
+                "y": 844
+            }
+        }
+    },
+    "点击_矿山": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "矿山.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1030,
+                    30,
+                    36,
+                    40
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击_矿山_扫荡"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -256,
+                "y": 514
+            }
+        }
+    },
+    "点击_矿山_扫荡": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "扫荡.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    886,
+                    646,
+                    54,
+                    21
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击_矿山_最大"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 37,
+                "y": 517
+            }
+        }
+    },
+    "点击_矿山_扫荡_2": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "扫荡.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    585,
+                    500,
+                    95,
+                    40
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "领取_矿山_钥匙"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 612,
+                "y": 518
+            }
+        }
+    },
+    "点击_矿山_最大": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "最大.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    824,
+                    436,
+                    57,
+                    33
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击_矿山_扫荡_2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 314,
+                "y": 520
+            }
+        }
+    },
+    "点击_觉醒": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "觉醒.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1186,
+                    34,
+                    27,
+                    25
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击_觉醒_扫荡"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -256,
+                "y": 1164
+            }
+        }
+    },
+    "点击_觉醒_扫荡": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "扫荡.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    899,
+                    646,
+                    44,
+                    22
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击_觉醒_最大"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 42,
+                "y": 1172
+            }
+        }
+    },
+    "点击_觉醒_扫荡_2": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "扫荡.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    585,
+                    500,
+                    95,
+                    40
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "确认"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 612,
+                "y": 1177
+            }
+        }
+    },
+    "点击_觉醒_最大": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "最大.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    824,
+                    436,
+                    57,
+                    33
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击_觉醒_扫荡_2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 324,
+                "y": 1178
+            }
+        }
+    },
+    "点击_面包店": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "面包店.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    869,
+                    11,
+                    68,
+                    76
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击_面包店_扫荡"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -253,
+                "y": -144
+            }
+        }
+    },
+    "点击_面包店_扫荡": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "扫荡.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    892,
+                    643,
+                    54,
+                    24
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击_面包店_最大"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 39,
+                "y": -149
+            }
+        }
+    },
+    "点击_面包店_扫荡_2": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "扫荡.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    585,
+                    500,
+                    95,
+                    40
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "领取_面包店_钥匙"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 613,
+                "y": -140
+            }
+        }
+    },
+    "点击_面包店_最大": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "最大.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    824,
+                    436,
+                    57,
+                    33
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击_面包店_扫荡_2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 316,
+                "y": -145
+            }
+        }
+    },
+    "点击_鱼人": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "鱼人.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    959,
+                    37,
+                    35,
+                    33
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击_鱼人_扫荡"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -250,
+                "y": 186
+            }
+        }
+    },
+    "点击_鱼人_扫荡": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "扫荡.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    889,
+                    646,
+                    52,
+                    24
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击_鱼人_最大"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 36,
+                "y": 190
+            }
+        }
+    },
+    "点击_鱼人_扫荡_2": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "扫荡.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    585,
+                    500,
+                    95,
+                    40
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "领取_鱼人_钥匙"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 613,
+                "y": 189
+            }
+        }
+    },
+    "点击_鱼人_最大": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "最大.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    824,
+                    436,
+                    57,
+                    33
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击_鱼人_扫荡_2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 312,
+                "y": 190
+            }
+        }
+    },
+    "确认": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1118,
+                    318,
+                    89,
+                    67
+                ]
+            }
+        },
+        "post_delay": 0,
+        "focus": "2000",
+        "next": [
+            "领取_觉醒_钥匙"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 903,
+                "y": 1191
+            }
+        }
+    },
+    "返回_主界面": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "返回.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    14,
+                    5,
+                    108,
+                    86
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 1480,
+                "y": 1573
+            }
+        }
+    },
+    "返回_副本": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "返回.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    38,
+                    26,
+                    43,
+                    41
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "返回_主界面"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1190,
+                "y": 1550
+            }
+        }
+    },
+    "领取_列车_钥匙": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "副本钥匙.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1013,
+                    636,
+                    198,
+                    40
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击_面包店"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 901,
+                "y": -481
+            }
+        }
+    },
+    "领取_机械_钥匙": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "副本钥匙.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1013,
+                    636,
+                    198,
+                    40
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "返回_副本"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 898,
+                "y": 1547
+            }
+        }
+    },
+    "领取_矮人_钥匙": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "副本钥匙.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1013,
+                    636,
+                    198,
+                    40
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击_觉醒"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 901,
+                "y": 849
+            }
+        }
+    },
+    "领取_矿山_钥匙": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "副本钥匙.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1013,
+                    636,
+                    198,
+                    40
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击_矮人"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 900,
+                "y": 520
+            }
+        }
+    },
+    "领取_觉醒_钥匙": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "副本钥匙.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1013,
+                    636,
+                    198,
+                    40
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "向左滑动"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1177,
+                "y": 1178
+            }
+        }
+    },
+    "领取_面包店_钥匙": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "副本钥匙.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1013,
+                    636,
+                    198,
+                    40
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击_鱼人"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 901,
+                "y": -143
+            }
+        }
+    },
+    "领取_鱼人_钥匙": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "副本钥匙.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1013,
+                    636,
+                    198,
+                    40
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击_矿山"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 900,
+                "y": 190
+            }
+        }
+    }
+}

@@ -1,0 +1,306 @@
+{
+    "$__mpe_config_每日商店": {
+        "$__mpe_code": {
+            "prefix": "",
+            "filePath": "C:\\develop_py\\MaaRoi\\assets\\resource\\pipeline\\每日商店.json",
+            "lastSyncTime": 1780407879331,
+            "coordinateMode": "absolute-v1",
+            "savedViewport": {
+                "x": 733,
+                "y": 402,
+                "zoom": 1.14
+            },
+            "filename": "每日商店",
+            "version": "v1.5.3"
+        }
+    },
+    "点击商店": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "商店.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    528,
+                    659,
+                    32,
+                    19
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "next": [
+            "点击礼品商店"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -723,
+                "y": -210
+            }
+        }
+    },
+    "点击礼品商店": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    31,
+                    214,
+                    36,
+                    17
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击每日礼包"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -368,
+                "y": -178
+            }
+        }
+    },
+    "点击每日礼包": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    699,
+                    129,
+                    33,
+                    16
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击免费"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -18,
+                "y": -181
+            }
+        }
+    },
+    "点击免费": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    285,
+                    567,
+                    71,
+                    30
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击免费2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 335,
+                "y": -164
+            }
+        }
+    },
+    "点击货币商店": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    36,
+                    286,
+                    32,
+                    19
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击免费宝石"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -355,
+                "y": 103
+            }
+        }
+    },
+    "点击免费宝石": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    233,
+                    581,
+                    67,
+                    27
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击免费宝石2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -28,
+                "y": 103
+            }
+        }
+    },
+    "点击免费宝石2": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    233,
+                    581,
+                    67,
+                    27
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击战利品"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 332,
+                "y": 115
+            }
+        }
+    },
+    "点击战利品": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    33,
+                    367,
+                    25,
+                    21
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击兑换100次"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -365,
+                "y": 389
+            }
+        }
+    },
+    "点击兑换100次": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1165,
+                    586,
+                    38,
+                    19
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击空白"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -30,
+                "y": 386
+            }
+        }
+    },
+    "点击空白": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1175,
+                    389,
+                    51,
+                    40
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "返回主界面"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 302,
+                "y": 389
+            }
+        }
+    },
+    "返回主界面": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "返回.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    14,
+                    5,
+                    108,
+                    86
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "$__mpe_code": {
+            "position": {
+                "x": 698,
+                "y": 352
+            }
+        }
+    },
+    "点击免费2": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    285,
+                    567,
+                    71,
+                    30
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击货币商店"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 625,
+                "y": -163
+            }
+        }
+    }
+}
