@@ -27,17 +27,46 @@
             ]
         }
     ],
-    "import": [
-		"resource/pipeline/每日设施.json",
-		"resource/pipeline/每日突袭.json",
-		"resource/pipeline/每日工会.json",
-		"resource/pipeline/每日商店.json",
-		"resource/pipeline/每日副本.json",
-		"resource/pipeline/每日召唤.json",
-		"resource/pipeline/每日祝福.json",
-		"resource/pipeline/每日好友.json",
-		"resource/pipeline/每日基地成长.json"
-	],
-	"task": [],
-	"option": {}
+    "task": [
+        {
+            "name": "每日基地成长",
+            "entry": "点击成长"
+        },
+        {
+            "name": "每日商店",
+            "entry": "点击商店",
+        },
+        {
+            "name": "每日突袭",
+            "entry": "点击突袭",
+        },
+        {
+            "name": "每日商店",
+            "entry": "点击商店",
+        },
+        {
+            "name": "每日设施",
+            "entry": "点击设施",
+        },
+        {
+            "name": "每日工会",
+            "entry": "点击工会",
+        },
+        {
+            "name": "每日祝福",
+            "entry": "点击祝福",
+        },
+        {
+            "name": "每日召唤",
+            "entry": "点击召唤",
+        },
+        {
+            "name": "每日副本",
+            "entry": "点击副本",
+        },
+        {
+            "name": "每日好友",
+            "entry": "点击好友",
+        }
+    ]
 }
