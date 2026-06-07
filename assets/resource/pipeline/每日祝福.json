@@ -3,19 +3,19 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1780226768080,
+            "lastSyncTime": 1780413746935,
             "isModifiedExternally": false,
             "filePath": "C:\\develop_py\\MaaRoi\\assets\\resource\\pipeline\\每日祝福.json",
             "savedViewport": {
-                "x": 797,
-                "y": 62,
-                "zoom": 0.86
+                "x": 767,
+                "y": 10,
+                "zoom": 1.13
             },
             "filename": "每日祝福",
             "version": "v1.5.3"
         }
     },
-    "点击_获取_1": {
+    "点击_获取": {
         "recognition": {
             "type": "TemplateMatch",
             "param": {
@@ -36,6 +36,9 @@
             }
         },
         "post_delay": 2000,
+        "focus": {
+            "Node.Action.Succeeded": "点击_获取_1"
+        },
         "next": [
             "点击_获取_2"
         ],
@@ -70,6 +73,9 @@
             }
         },
         "post_delay": 2000,
+        "focus": {
+            "Node.Action.Succeeded": "点击_获取_2"
+        },
         "next": [
             "返回_主界面_3"
         ],
@@ -113,7 +119,7 @@
         "$__mpe_code": {
             "position": {
                 "x": -196,
-                "y": 706
+                "y": 762
             }
         }
     },
@@ -140,7 +146,7 @@
         "$__mpe_code": {
             "position": {
                 "x": 98,
-                "y": 461
+                "y": 492
             }
         }
     },
@@ -167,7 +173,7 @@
         "$__mpe_code": {
             "position": {
                 "x": 384,
-                "y": 431
+                "y": 460
             }
         }
     },
@@ -191,10 +197,13 @@
                 ]
             }
         },
+        "focus": {
+            "Node.Action.Succeeded": "返回_主界面_3"
+        },
         "$__mpe_code": {
             "position": {
                 "x": 387,
-                "y": 160
+                "y": 161
             }
         }
     },
@@ -221,7 +230,7 @@
         "$__mpe_code": {
             "position": {
                 "x": 101,
-                "y": 733
+                "y": 792
             }
         }
     },
@@ -248,7 +257,7 @@
         "$__mpe_code": {
             "position": {
                 "x": 104,
-                "y": 991
+                "y": 1076
             }
         }
     },
@@ -275,7 +284,7 @@
         "$__mpe_code": {
             "position": {
                 "x": -209,
-                "y": 1132
+                "y": 1231
             }
         }
     },
@@ -299,8 +308,11 @@
                 ]
             }
         },
+        "focus": {
+            "Node.Action.Succeeded": "点击祝福"
+        },
         "next": [
-            "点击_获取_1",
+            "点击_获取",
             "点击_获取_2_副本5"
         ],
         "on_error": [
@@ -309,7 +321,7 @@
         "$__mpe_code": {
             "position": {
                 "x": -556,
-                "y": 169
+                "y": 170
             }
         }
     }

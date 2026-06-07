@@ -3,16 +3,16 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1780228443095,
+            "lastSyncTime": 1780756159382,
             "isModifiedExternally": false,
             "filePath": "C:\\develop_py\\MaaRoi\\assets\\resource\\pipeline\\每日工会.json",
             "savedViewport": {
-                "x": 441,
-                "y": 213,
-                "zoom": 0.65
+                "x": -144,
+                "y": -231,
+                "zoom": 1.14
             },
             "filename": "每日工会",
-            "version": "v1.5.3"
+            "version": "v1.6.1"
         }
     },
     "点击": {
@@ -20,21 +20,21 @@
             "type": "Click",
             "param": {
                 "target": [
-                    176,
-                    97,
-                    46,
-                    29
+                    1175,
+                    76,
+                    33,
+                    36
                 ]
             }
         },
-        "post_delay": 1000,
+        "post_delay": 2000,
         "next": [
             "点击从突袭战返回"
         ],
         "$__mpe_code": {
             "position": {
                 "x": 1254,
-                "y": 618
+                "y": 736
             }
         }
     },
@@ -58,13 +58,17 @@
                 ]
             }
         },
+        "post_delay": 2000,
+        "focus": {
+            "Node.Action.Succeeded": "点击从工会之家返回"
+        },
         "next": [
             "点击工会商店"
         ],
         "$__mpe_code": {
             "position": {
                 "x": 1551,
-                "y": -91
+                "y": -85
             }
         }
     },
@@ -81,20 +85,24 @@
             "type": "Click",
             "param": {
                 "target": [
-                    33,
-                    26,
-                    43,
-                    44
+                    39,
+                    27,
+                    30,
+                    32
                 ]
             }
+        },
+        "post_delay": 2000,
+        "focus": {
+            "Node.Action.Succeeded": "点击从工会商店返回"
         },
         "next": [
             "点击工会突袭战"
         ],
         "$__mpe_code": {
             "position": {
-                "x": 979,
-                "y": 272
+                "x": 1172,
+                "y": 316
             }
         }
     },
@@ -118,13 +126,17 @@
                 ]
             }
         },
+        "post_delay": 2000,
+        "focus": {
+            "Node.Action.Succeeded": "点击从突袭战返回"
+        },
         "next": [
             "点击返回主界面"
         ],
         "$__mpe_code": {
             "position": {
-                "x": 1550,
-                "y": 601
+                "x": 1567,
+                "y": 692
             }
         }
     },
@@ -149,6 +161,9 @@
             }
         },
         "post_delay": 1500,
+        "focus": {
+            "Node.Action.Succeeded": "点击工会"
+        },
         "next": [
             "点击工会之家"
         ],
@@ -180,13 +195,16 @@
             }
         },
         "post_delay": 1500,
+        "focus": {
+            "Node.Action.Succeeded": "点击工会之家"
+        },
         "next": [
             "点击捐献"
         ],
         "$__mpe_code": {
             "position": {
                 "x": -14,
-                "y": -125
+                "y": -124
             }
         }
     },
@@ -211,13 +229,16 @@
             }
         },
         "post_delay": 2000,
+        "focus": {
+            "Node.Action.Succeeded": "点击工会免费礼包"
+        },
         "next": [
-            "点击从工会商店返回"
+            "点击确认3"
         ],
         "$__mpe_code": {
             "position": {
                 "x": 665,
-                "y": 255
+                "y": 316
             }
         }
     },
@@ -242,13 +263,16 @@
             }
         },
         "post_delay": 1500,
+        "focus": {
+            "Node.Action.Succeeded": "点击工会商店"
+        },
         "next": [
             "点击工会礼包"
         ],
         "$__mpe_code": {
             "position": {
                 "x": -18,
-                "y": 250
+                "y": 310
             }
         }
     },
@@ -272,14 +296,17 @@
                 ]
             }
         },
-        "post_delay": 1000,
+        "post_delay": 2000,
+        "focus": {
+            "Node.Action.Succeeded": "点击工会礼包"
+        },
         "next": [
             "点击工会免费礼包"
         ],
         "$__mpe_code": {
             "position": {
                 "x": 346,
-                "y": 251
+                "y": 311
             }
         }
     },
@@ -304,13 +331,16 @@
             }
         },
         "post_delay": 1500,
+        "focus": {
+            "Node.Action.Succeeded": "点击工会突袭战"
+        },
         "next": [
             "点击扫荡"
         ],
         "$__mpe_code": {
             "position": {
                 "x": -26,
-                "y": 578
+                "y": 689
             }
         }
     },
@@ -334,14 +364,17 @@
                 ]
             }
         },
-        "post_delay": 1000,
+        "post_delay": 2000,
+        "focus": {
+            "Node.Action.Succeeded": "点击扫荡"
+        },
         "next": [
             "点击最大"
         ],
         "$__mpe_code": {
             "position": {
                 "x": 342,
-                "y": 575
+                "y": 686
             }
         }
     },
@@ -366,13 +399,16 @@
             }
         },
         "post_delay": 2000,
+        "focus": {
+            "Node.Action.Succeeded": "点击扫荡2"
+        },
         "next": [
             "点击"
         ],
         "$__mpe_code": {
             "position": {
                 "x": 978,
-                "y": 582
+                "y": 694
             }
         }
     },
@@ -396,14 +432,17 @@
                 ]
             }
         },
-        "post_delay": 1000,
+        "post_delay": 2000,
+        "focus": {
+            "Node.Action.Succeeded": "点击捐献"
+        },
         "next": [
             "点击高级捐献500"
         ],
         "$__mpe_code": {
             "position": {
                 "x": 348,
-                "y": -121
+                "y": -120
             }
         }
     },
@@ -427,14 +466,17 @@
                 ]
             }
         },
-        "post_delay": 1000,
+        "post_delay": 2000,
+        "focus": {
+            "Node.Action.Succeeded": "点击最大"
+        },
         "next": [
             "点击扫荡2"
         ],
         "$__mpe_code": {
             "position": {
                 "x": 671,
-                "y": 580
+                "y": 692
             }
         }
     },
@@ -458,10 +500,13 @@
                 ]
             }
         },
+        "focus": {
+            "Node.Action.Succeeded": "点击返回主界面"
+        },
         "$__mpe_code": {
             "position": {
                 "x": 1864,
-                "y": 600
+                "y": 715
             }
         }
     },
@@ -485,14 +530,17 @@
                 ]
             }
         },
-        "post_delay": 1000,
+        "post_delay": 2000,
+        "focus": {
+            "Node.Action.Succeeded": "点击高级捐献1000"
+        },
         "next": [
             "点击高级捐献2000"
         ],
         "$__mpe_code": {
             "position": {
                 "x": 947,
-                "y": -114
+                "y": -112
             }
         }
     },
@@ -516,14 +564,17 @@
                 ]
             }
         },
-        "post_delay": 1000,
+        "post_delay": 2000,
+        "focus": {
+            "Node.Action.Succeeded": "点击高级捐献2000"
+        },
         "next": [
             "点击从工会之家返回"
         ],
         "$__mpe_code": {
             "position": {
                 "x": 1243,
-                "y": -110
+                "y": -107
             }
         }
     },
@@ -547,14 +598,40 @@
                 ]
             }
         },
-        "post_delay": 1000,
+        "post_delay": 2000,
+        "focus": {
+            "Node.Action.Succeeded": "点击高级捐献500"
+        },
         "next": [
             "点击高级捐献1000"
         ],
         "$__mpe_code": {
             "position": {
                 "x": 658,
-                "y": -121
+                "y": -120
+            }
+        }
+    },
+    "点击确认3": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    621,
+                    638,
+                    33,
+                    13
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击从工会商店返回"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 931,
+                "y": 356
             }
         }
     }

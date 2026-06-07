@@ -3,302 +3,65 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1780226775069,
+            "lastSyncTime": 1780837309699,
             "isModifiedExternally": false,
             "filePath": "C:\\develop_py\\MaaRoi\\assets\\resource\\pipeline\\每日设施.json",
             "savedViewport": {
-                "x": 2027,
-                "y": 957,
+                "x": -1540,
+                "y": -867,
                 "zoom": 1.5
             },
             "filename": "每日设施",
-            "version": "v1.5.3"
+            "version": "v1.6.1"
         }
     },
-    "点击_全部获得": {
-        "recognition": {
-            "type": "TemplateMatch",
-            "param": {
-                "template": [
-                    "全部获得.png"
-                ]
-            }
-        },
+    "点击全部获取": {
         "action": {
             "type": "Click",
             "param": {
                 "target": [
-                    661,
-                    589,
-                    263,
-                    67
-                ]
-            }
-        },
-        "post_delay": 5000,
-        "next": [
-            "点击_确认"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": -400,
-                "y": -454
-            }
-        }
-    },
-    "点击_关闭": {
-        "recognition": {
-            "type": "TemplateMatch",
-            "param": {
-                "template": [
-                    "关闭.png"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    1011,
-                    57,
-                    30,
-                    36
-                ]
-            }
-        },
-        "next": [
-            "返回_主画面"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 424,
-                "y": 112
-            }
-        }
-    },
-    "点击_增加2小时_1": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "expected": [
-                    "增加2小时"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 1000,
-        "next": [
-            "点击_增加2小时_2"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": -428,
-                "y": -148
-            }
-        }
-    },
-    "点击_增加2小时_2": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "expected": [
-                    "增加2小时"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 1000,
-        "next": [
-            "点击_增加2小时_3"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": -162,
-                "y": -148
-            }
-        }
-    },
-    "点击_增加2小时_3": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "expected": [
-                    "增加2小时"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 1000,
-        "next": [
-            "点击_增加2小时_4"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 104,
-                "y": -151
-            }
-        }
-    },
-    "点击_增加2小时_4": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "expected": [
-                    "增加2小时"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 1000,
-        "next": [
-            "点击_增加2小时_5"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 380,
-                "y": -151
-            }
-        }
-    },
-    "点击_增加2小时_5": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "expected": [
-                    "增加2小时"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 1000,
-        "next": [
-            "点击_增加2小时_6"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": -421,
-                "y": 111
-            }
-        }
-    },
-    "点击_增加2小时_6": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "expected": [
-                    "增加2小时"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 1000,
-        "next": [
-            "点击_增加2小时_7"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": -141,
-                "y": 108
-            }
-        }
-    },
-    "点击_增加2小时_7": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "expected": [
-                    "增加2小时"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 1000,
-        "next": [
-            "点击_关闭"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 140,
-                "y": 106
-            }
-        }
-    },
-    "点击_多倍": {
-        "recognition": {
-            "type": "TemplateMatch",
-            "param": {
-                "template": [
-                    "设施多倍.png"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    1113,
-                    16,
-                    62,
-                    65
-                ]
-            }
-        },
-        "next": [
-            "点击_增加2小时_1"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": -714,
-                "y": -143
-            }
-        }
-    },
-    "点击_确认": {
-        "recognition": {
-            "type": "TemplateMatch",
-            "param": {
-                "template": [
-                    "设施确认.png"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    529,
-                    619,
-                    220,
-                    56
+                    775,
+                    616,
+                    24,
+                    11
                 ]
             }
         },
         "post_delay": 2000,
         "next": [
-            "点击_多倍"
+            "点击空白确认"
         ],
         "$__mpe_code": {
             "position": {
-                "x": -139,
-                "y": -449
+                "x": 271,
+                "y": 758
             }
         }
     },
-    "点击_设施": {
+    "点击空白确认": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1143,
+                    122,
+                    27,
+                    24
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击2小时增益"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 567,
+                "y": 759
+            }
+        }
+    },
+    "点击设施": {
         "recognition": {
             "type": "TemplateMatch",
             "param": {
@@ -311,25 +74,96 @@
             "type": "Click",
             "param": {
                 "target": [
-                    255,
-                    627,
-                    89,
-                    92
+                    288,
+                    666,
+                    17,
+                    14
                 ]
             }
         },
         "post_delay": 2000,
         "next": [
-            "点击_全部获得"
+            "点击全部获取"
         ],
         "$__mpe_code": {
             "position": {
-                "x": -700,
-                "y": -456
+                "x": -48,
+                "y": 711
             }
         }
     },
-    "返回_主画面": {
+    "点击2小时增益": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1137,
+                    34,
+                    17,
+                    22
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击2小时增益X5"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 881,
+                "y": 771
+            }
+        }
+    },
+    "点击2小时增益X5": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    602,
+                    627,
+                    35,
+                    11
+                ]
+            }
+        },
+        "repeat": 6,
+        "repeat_delay": 1000,
+        "post_delay": 2000,
+        "next": [
+            "点击关闭"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1188,
+                "y": 760
+            }
+        }
+    },
+    "点击关闭": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1016,
+                    61,
+                    22,
+                    30
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "返回"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1485,
+                "y": 793
+            }
+        }
+    },
+    "返回": {
         "recognition": {
             "type": "TemplateMatch",
             "param": {
@@ -342,28 +176,18 @@
             "type": "Click",
             "param": {
                 "target": [
-                    15,
-                    5,
-                    87,
-                    89
+                    50,
+                    34,
+                    19,
+                    21
                 ]
             }
         },
+        "post_delay": 2000,
         "$__mpe_code": {
             "position": {
-                "x": 714,
-                "y": 109
-            }
-        }
-    },
-    "进入_设施": {
-        "next": [
-            "点击_设施"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": -1020,
-                "y": -413
+                "x": 1773,
+                "y": 759
             }
         }
     }

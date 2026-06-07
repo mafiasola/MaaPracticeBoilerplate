@@ -3,16 +3,16 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1780229088511,
+            "lastSyncTime": 1780755412314,
             "isModifiedExternally": false,
             "filePath": "C:\\develop_py\\MaaRoi\\assets\\resource\\pipeline\\每日副本.json",
             "savedViewport": {
-                "x": 1850,
-                "y": 982,
-                "zoom": 1.5
+                "x": -677,
+                "y": -1593,
+                "zoom": 1.14
             },
             "filename": "每日副本",
-            "version": "v1.5.3"
+            "version": "v1.6.1"
         }
     },
     "向右滑动": {
@@ -196,37 +196,6 @@
             "position": {
                 "x": 317,
                 "y": -481
-            }
-        }
-    },
-    "点击副本": {
-        "recognition": {
-            "type": "TemplateMatch",
-            "param": {
-                "template": [
-                    "副本.png"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    342,
-                    635,
-                    79,
-                    81
-                ]
-            }
-        },
-        "post_delay": 2000,
-        "next": [
-            "向右滑动"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": -858,
-                "y": -464
             }
         }
     },
@@ -974,6 +943,37 @@
             }
         }
     },
+    "点击副本": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "副本.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    342,
+                    635,
+                    79,
+                    81
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "向右滑动"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -858,
+                "y": -464
+            }
+        }
+    },
     "确认": {
         "action": {
             "type": "Click",
@@ -1011,10 +1011,10 @@
             "type": "Click",
             "param": {
                 "target": [
-                    14,
-                    5,
-                    108,
-                    86
+                    42,
+                    30,
+                    30,
+                    29
                 ]
             }
         },

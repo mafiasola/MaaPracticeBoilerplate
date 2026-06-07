@@ -1,0 +1,262 @@
+{
+    "$__mpe_config_每日竞技场": {
+        "$__mpe_code": {
+            "prefix": "",
+            "coordinateMode": "absolute-v1",
+            "lastSyncTime": 1780828613547,
+            "isModifiedExternally": false,
+            "filePath": "C:\\develop_py\\MaaRoi\\assets\\resource\\pipeline\\每日竞技场.json",
+            "savedViewport": {
+                "x": 772,
+                "y": -118,
+                "zoom": 0.65
+            },
+            "filename": "每日竞技场",
+            "version": "v1.6.1"
+        }
+    },
+    "判断是否已经挑战": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "roi": [
+                    1132,
+                    230,
+                    103,
+                    75
+                ],
+                "template": [
+                    "对决.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1162,
+                    253,
+                    33,
+                    29
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "on_error": [
+            "匹配对手2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 512,
+                "y": 321
+            }
+        }
+    },
+    "判断是否已经挑战2": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "对决.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1162,
+                    253,
+                    33,
+                    29
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击刷新"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 456,
+                "y": 930
+            }
+        }
+    },
+    "刷新判断": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "更新列表.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    846,
+                    229,
+                    29,
+                    30
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "on_error": [
+            "开始挑战"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1136,
+                "y": 884
+            }
+        }
+    },
+    "匹配对手1": {
+        "recognition": {
+            "type": "ColorMatch",
+            "param": {
+                "roi": [
+                    829,
+                    227,
+                    76,
+                    27
+                ],
+                "lower": [
+                    [
+                        165,
+                        255,
+                        0
+                    ]
+                ],
+                "upper": [
+                    [
+                        165,
+                        255,
+                        0
+                    ]
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "判断是否已经挑战"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 211,
+                "y": 338
+            }
+        }
+    },
+    "匹配对手2": {
+        "recognition": {
+            "type": "ColorMatch",
+            "param": {
+                "roi": [
+                    829,
+                    324,
+                    73,
+                    32
+                ],
+                "lower": [
+                    [
+                        165,
+                        255,
+                        0
+                    ]
+                ],
+                "upper": [
+                    [
+                        158,
+                        242,
+                        1
+                    ]
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "判断是否已经挑战2"
+        ],
+        "on_error": [
+            "点击刷新"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 120,
+                "y": 1013
+            }
+        }
+    },
+    "开始挑战": {
+        "next": [
+            "匹配对手1",
+            "匹配对手2",
+            "[JumpBack]匹配对手1",
+            "[JumpBack]匹配对手2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -168,
+                "y": 740
+            }
+        }
+    },
+    "点击刷新": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "刷新.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 2000,
+        "next": [
+            "刷新判断"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 778,
+                "y": 879
+            }
+        }
+    },
+    "点击竞技场": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "竞技场.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    448,
+                    660,
+                    24,
+                    17
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "开始挑战"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -510,
+                "y": 653
+            }
+        }
+    }
+}
